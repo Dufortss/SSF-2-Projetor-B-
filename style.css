@@ -1,0 +1,58 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte gamer (você pode trocar por alguma do Google Fonts como "Orbitron") */
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    font-family: 'Orbitron', sans-serif;
+    color: #00ffcc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container centralizado com efeito neon */
+.container {
+    text-align: center;
+    padding: 40px;
+    background: rgba(10, 10, 10, 0.8);
+    border: 2px solid #00ffcc;
+    box-shadow: 0 0 20px #00ffcc, 0 0 40px #0ff;
+    border-radius: 15px;
+}
+
+/* Imagem com efeito neon */
+.amostra {
+    width: 300px;
+    max-width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+/* Botão de download estilo gamer neon */
+.botao-download {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 20px;
+    color: #000;
+    background: #00ffcc;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #0ff;
+    transition: 0.3s;
+}
+
+.botao-download:hover {
+    background: #0ff;
+    color: #000;
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+    transform: scale(1.05);
+}
