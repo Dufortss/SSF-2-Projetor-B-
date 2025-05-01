@@ -32,11 +32,11 @@ body {
     z-index: 1;
     text-align: center;
     padding: 40px;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 1.85);
     border: 2px solid #00ffcc;
     box-shadow: 0 0 25px #00ffcc, 0 0 60px #0ff;
     border-radius: 15px;
-    max-width: 90%;
+    max-width: 50%;
 }
 
 /* Botão neon */
@@ -45,6 +45,7 @@ body {
     padding: 15px 40px;
     font-size: 20px;
     color: #000;
+    text-align: center;
     background: #00ffcc;
     text-decoration: none;
     border-radius: 8px;
@@ -57,5 +58,6 @@ body {
     background: #0ff;
     color: #000;
     box-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+    background: rgba(0, 0, 0, 0.85);
     transform: scale(1.05);
 }
