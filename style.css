@@ -10,7 +10,8 @@ body {
     font-family: 'Orbitron', sans-serif;
     color: #00ffcc;
     height: 100vh;
-    background: url('https://xatimg.com/image/y2LvrGUnHePr.jpg') no-repeat center center fixed;
+    background: url('https://xatimg.com/image/M4wO5R9x2vqj.png') no-repeat center center fixed;
+    color: #000;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -34,12 +35,13 @@ body {
 
 /* Imagem com borda neon */
 .amostra {
-    width: 300px;
+    width: 100px;
     max-width: 100%;
     margin-bottom: 30px;
     border: 2px solid #00ffcc;
     border-radius: 10px;
     box-shadow: 0 0 15px #00ffcc;
+
 }
 
 /* Botão de download estilo gamer neon */
