@@ -21,7 +21,7 @@ body {
     background-size: contain;
     width: 80%;
     height: 80%;
-    opacity: 0.2; /* Transparência para não atrapalhar o conteúdo */
+   
     z-index: 0;
     pointer-events: none; /* Evita interferência em cliques */
 }
@@ -32,6 +32,7 @@ body {
     z-index: 1;
     text-align: center;
     padding: 40px;
+    background: rgba(0, 0, 0, 0.85);
     border: 2px solid #00ffcc;
     box-shadow: 0 0 25px #00ffcc, 0 0 60px #0ff;
     border-radius: 15px;
