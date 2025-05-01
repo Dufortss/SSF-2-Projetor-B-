@@ -37,6 +37,11 @@ body {
     box-shadow: 0 0 25px #00ffcc, 0 0 60px #0ff;
     border-radius: 15px;
     max-width: 50%;
+
+    display: flex;              /* Adicionado */
+    flex-direction: column;     /* Adicionado */
+    align-items: center;        /* Adicionado */
+    gap: 20px;                  /* Espaço entre imagem e botão (opcional) */
 }
 
 /* Botão neon */
