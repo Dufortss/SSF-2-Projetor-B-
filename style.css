@@ -22,6 +22,16 @@ body {
     border: 3px solid #ff00ff;
 }
 
+ .logo-transparente {
+    max-width: 400px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    image-rendering: auto;
+}
+
+
 /* Container com efeito neon estilo gamer */
 .container {
     text-align: center;
